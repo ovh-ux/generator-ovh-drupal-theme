@@ -1,0 +1,41 @@
+{
+  "name": "<%= themeMachineName %>",
+  "version": "0.0.0",
+  "description": "<%= themeDesc %>",
+  "main": "gulpfile.js",
+  "author": {
+    "name": "OVH",
+    "url": "https://github.com/ovh-ux"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "drupal",
+    "theme",
+    "ovh",
+    "ovh-ux"
+  ],
+  "scripts": {
+    "start": "gulp",
+    "compile": "NODE_ENV=production gulp compile",
+    "test": "gulp validate",
+    "postinstall": "find node_modules/ -name \"*.info\" -type f -delete"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "bourbon": "^4.3.4",
+    "breakpoint-sass": "^2.7.1",
+    "normalize-scss": "^7.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint-config-ovh": "^0.1.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-drupal-theme-core": "github:ovh-ux/gulp-drupal-theme-core",
+    "rc": "^1.2.1",
+    "stylelint-config-ovh": "^0.1.0",
+    "stylelint-scss": "^2.0.1",
+    "webpack-merge": "^4.1.0"
+  }
+}

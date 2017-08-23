@@ -1,0 +1,12 @@
+// Mixins
+
+// Mixin that will include the fall back px declaration as well as the calculated rem value.
+@mixin pxAndRem($attribute, $size) {
+    #{$attribute}: #{$size}px;
+    #{$attribute}: calculateRem($size);
+}
+
+@mixin disabled {
+    cursor: default;
+    pointer-events: none;
+}

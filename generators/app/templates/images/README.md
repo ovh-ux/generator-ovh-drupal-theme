@@ -1,0 +1,1 @@
+You can place SVG files in here, then use them in your Twig templates like this: {{ source('@svgs/filename.svg') }}. The source function returns the content of a template without rendering it - perfect for include a <svg> element in your HTML. Make sure to minify it first! A good tool is svgo.

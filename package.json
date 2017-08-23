@@ -1,0 +1,43 @@
+{
+  "name": "generator-ovh-drupal-theme",
+  "version": "0.0.0",
+  "description": "Yeoman generator for Drupal 8 Theme, using gulp-drupal-theme-core.",
+  "repository": "ovh-ux/generator-ovh-drupal-theme",
+  "author": {
+    "name": "OVH",
+    "url": "https://github.com/ovh-ux"
+  },
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "yeoman-generator",
+    "drupal",
+    "theme",
+    "ovh",
+    "ovh-ux"
+  ],
+  "main": "generators/app/index.js",
+  "files": [
+    "generators"
+  ],
+  "scripts": {
+    "prepublish": "nsp check",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest-cli": "^20.0.0",
+    "jest": "^20.0.4",
+    "nsp": "^2.6.3",
+    "yeoman-assert": "^3.0.0",
+    "yeoman-test": "^1.6.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

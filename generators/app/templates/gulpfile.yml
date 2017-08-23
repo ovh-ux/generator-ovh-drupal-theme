@@ -1,0 +1,9 @@
+---
+
+# Config override for gulp-drupal-theme-core
+
+css:
+  enabled: true
+
+webpack:
+  enabled: true

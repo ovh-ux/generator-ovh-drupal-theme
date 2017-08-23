@@ -1,0 +1,20 @@
+# @see https://www.drupal.org/docs/8/creating-custom-modules/adding-stylesheets-css-and-javascript-js-to-a-drupal-8-module
+
+# Global library
+<%= themeMachineName %>_main-css:
+  version: 1.x
+  css:
+    # base:
+    # layout:
+    # component:
+    # state:
+    theme:
+      dist/main.css: { weight: -1 }
+
+<%= themeMachineName %>_main-js:
+  version: 1.x
+  js:
+    dist/main.js: { scope: footer, weight: -1 }
+  dependencies:
+    - core/jquery
+    - core/jquery.once

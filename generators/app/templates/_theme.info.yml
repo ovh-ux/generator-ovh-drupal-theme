@@ -1,0 +1,26 @@
+name: <%= themeName %>
+description: <%= themeDesc %><% if (themeBaseTheme) { %> (Sub-theme of <%= themeBaseThemeName %>)<% } %>
+type: theme
+version: '<%= themeCoreVersion %>-1.0'
+core: <%= themeCoreVersion %>
+screenshot: screenshot.png<% if (themeBaseTheme) { %>
+base theme: <%= themeBaseThemeName %><% } %>
+
+libraries:
+  - <%= themeMachineName %>/<%= themeMachineName %>_main-css
+  - <%= themeMachineName %>/<%= themeMachineName %>_main-js
+
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/modules/system/css/system.theme.css
+
+regions:
+  header: 'Header'
+  subheader: 'Subheader'
+  nav: 'Navigation'
+  content_top: 'Content Top'
+  content: 'Content'
+  content_bottom: 'Content Bottom'
+  sidebar: 'Sidebar'
+  footer: 'Footer Navigation'
+  footer_bottom: 'Footer Bottom'
