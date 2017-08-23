@@ -20,8 +20,10 @@
     "generators"
   ],
   "scripts": {
-    "prepublish": "nsp check",
-    "test": "jest"
+    "test": "jest",
+    "preversion": "npm run test",
+    "postversion": "git push && git push --tags",
+    "prepublish": "nsp check"
   },
   "dependencies": {
     "chalk": "^2.1.0",
