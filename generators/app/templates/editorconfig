@@ -24,7 +24,7 @@ trim_trailing_whitespace = false
 [Makefile]
 indent_style = tab
 
-# Matches the exact files either package.json or bower.json
-[{package.json,bower.json,.jscsrc,.jshintrc,.jshintrc-spec}]
+# Matches the exact files either package.json
+[package.json]
 indent_style = space
 indent_size = 2
