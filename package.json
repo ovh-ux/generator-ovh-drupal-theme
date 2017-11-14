@@ -23,14 +23,16 @@
     "test": "jest",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags",
-    "prepublish": "nsp check"
+    "prepublish": "npm run snyk-protect; nsp check",
+    "snyk-protect": "snyk protect"
   },
   "dependencies": {
     "chalk": "^2.1.0",
     "lodash": "^4.17.4",
     "mkdirp": "^0.5.1",
     "yeoman-generator": "^1.1.1",
-    "yosay": "^2.0.1"
+    "yosay": "^2.0.1",
+    "snyk": "^1.49.2"
   },
   "devDependencies": {
     "jest-cli": "^20.0.0",
@@ -41,5 +43,6 @@
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "snyk": true
 }
