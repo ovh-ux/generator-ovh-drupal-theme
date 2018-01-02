@@ -2,7 +2,7 @@
 
 ![generator-ovh-drupal-theme-banner](banner.png)
 
-[![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)]() [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ovh/ux) [![travis](https://travis-ci.org/ovh-ux/generator-ovh-drupal-theme.svg?branch=master)](https://travis-ci.org/ovh-ux/generator-ovh-drupal-theme)
+[![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)]() [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/ovh/ux) [![travis](https://travis-ci.org/ovh-ux/generator-ovh-drupal-theme.svg?branch=master)](https://travis-ci.org/ovh-ux/generator-ovh-drupal-theme)
 
 Bootstrap a new Drupal 8 Theme, using [gulp-drupal-theme-core](https://github.com/ovh-ux/gulp-drupal-theme-core).
 
