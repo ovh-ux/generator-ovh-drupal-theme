@@ -9,7 +9,7 @@ root = true
 
 # Change these settings to your own preference
 indent_style = space
-indent_size = 4
+indent_size = 2
 
 # We recommend you to keep these unchanged
 end_of_line = lf
@@ -23,8 +23,3 @@ trim_trailing_whitespace = false
 # Tab indentation (no size specified)
 [Makefile]
 indent_style = tab
-
-# Matches the exact files either package.json
-[package.json]
-indent_style = space
-indent_size = 2
