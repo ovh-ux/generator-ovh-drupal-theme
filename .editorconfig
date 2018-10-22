@@ -28,3 +28,7 @@ indent_style = tab
 [{package.json,bower.json,.jscsrc,.jshintrc,.jshintrc-spec}]
 indent_style = space
 indent_size = 2
+
+[{*.yaml,.travis.yml}]
+indent_style = space
+indent_size = 2
