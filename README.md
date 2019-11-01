@@ -8,7 +8,7 @@ Bootstrap a new Drupal 8 Theme, using [gulp-drupal-theme-core](https://github.co
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-ovh-drupal-theme using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-ovh-drupal-theme using [npm](https://www.npmjs.com/) (we assume you have pre-installed [Node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
